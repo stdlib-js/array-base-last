@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@esm/index.mjs';
+import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@v0.0.1-esm/index.mjs';
 ```
 
 #### last( x )
@@ -84,7 +84,7 @@ var out = last( x );
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
 import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@esm/index.mjs';
 import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@esm/index.mjs';
-import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@esm/index.mjs';
+import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@v0.0.1-esm/index.mjs';
 
 // Create a complex number array:
 var arr = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
