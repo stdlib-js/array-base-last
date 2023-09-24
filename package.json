@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-last",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Return the last element of an array-like object.",
   "license": "Apache-2.0",
   "author": {
@@ -37,20 +37,20 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessor-getter": "^0.0.1",
-    "@stdlib/array-base-assert-is-accessor-array": "^0.0.1",
-    "@stdlib/array-base-getter": "^0.0.1",
-    "@stdlib/array-dtype": "^0.0.6",
-    "@stdlib/types": "^0.0.14"
+    "@stdlib/array-base-accessor-getter": "^0.1.0",
+    "@stdlib/array-base-assert-is-accessor-array": "^0.1.0",
+    "@stdlib/array-base-getter": "^0.1.0",
+    "@stdlib/array-dtype": "^0.1.0",
+    "@stdlib/types": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/array-complex64": "^0.0.6",
+    "@stdlib/array-complex64": "^0.1.0",
     "@stdlib/array-filled-by": "^0.0.2",
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/complex-imagf": "^0.0.1",
-    "@stdlib/complex-realf": "^0.0.1",
-    "@stdlib/math-base-assert-is-nanf": "^0.0.8",
-    "@stdlib/math-base-special-pow": "^0.0.7",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/complex-imagf": "^0.1.0",
+    "@stdlib/complex-realf": "^0.1.0",
+    "@stdlib/math-base-assert-is-nanf": "^0.1.0",
+    "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-discrete-uniform": "^0.0.6",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
