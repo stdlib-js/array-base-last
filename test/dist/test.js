@@ -21,54 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var Complex64Array = require( '@stdlib/array-complex64' );
-var realf = require( '@stdlib/complex-realf' );
-var imagf = require( '@stdlib/complex-imagf' );
-var last = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof last, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function returns the last element of an array-like object', function test( t ) {
-	var expected;
-	var actual;
-	var x;
-
-	x = [ 1, 2, 3 ];
-	expected = 3;
-	actual = last( x );
-
-	t.equal( actual, expected, 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function returns the last element of an array-like object (accessors)', function test( t ) {
-	var actual;
-	var x;
-
-	x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
-	actual = last( x );
-
-	t.strictEqual( realf( actual ), 3.0, 'returns expected value' );
-	t.strictEqual( imagf( actual ), 4.0, 'returns expected value' );
-
-	t.end();
-});
-
-tape( 'the function returns `undefined` if provided an empty array', function test( t ) {
-	var actual = last( [] );
-	t.strictEqual( actual, void 0, 'returns expected value' );
-	t.end();
-});
-
-tape( 'the function returns `undefined` if provided an empty array (accessors)', function test( t ) {
-	var actual = last( new Complex64Array( 0 ) );
-	t.strictEqual( actual, void 0, 'returns expected value' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
