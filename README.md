@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-base-last
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-last = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var last = require( 'path/to/vendor/umd/array-base-last/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.last;
-})();
-</script>
+var last = require( '@stdlib/array-base-last' );
 ```
 
 #### last( x )
@@ -110,16 +104,11 @@ var out = last( x );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-realf@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/complex-imagf@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var Complex64Array = require( '@stdlib/array-complex64' );
+var realf = require( '@stdlib/complex-realf' );
+var imagf = require( '@stdlib/complex-imagf' );
+var last = require( '@stdlib/array-base-last' );
 
 // Create a complex number array:
 var arr = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
@@ -136,11 +125,6 @@ var im = imagf( out );
 
 console.log( '%d + %di', re, im );
 // => '5 + 6i'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -226,8 +210,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/array-base-last/tree/deno
+[deno-readme]: https://github.com/stdlib-js/array-base-last/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/array-base-last/tree/umd
+[umd-readme]: https://github.com/stdlib-js/array-base-last/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/array-base-last/tree/esm
+[esm-readme]: https://github.com/stdlib-js/array-base-last/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/array-base-last/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-base-last/main/LICENSE
