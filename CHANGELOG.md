@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.2.2">
 
-## Unreleased (2024-07-17)
+## 0.2.2 (2024-07-29)
 
 <section class="commits">
 
@@ -41,6 +41,94 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 ## 0.2.1 (2024-02-25)
 
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.2.0">
+
+## 0.2.0 (2024-02-14)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2487c08`](https://github.com/stdlib-js/stdlib/commit/2487c08966f48e64e723bd6310e8927c0de31cfc) - **refactor:** use stdlib package to resolve accessor _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.0">
+
+## 0.1.0 (2023-09-24)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`14bacb3`](https://github.com/stdlib-js/stdlib/commit/14bacb3cbfced427bcbadae7cbc649a62bb62b69) - update import path for `Collection` type definition
+
+</section>
+
+<!-- /.bug-fixes -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`14bacb3`](https://github.com/stdlib-js/stdlib/commit/14bacb3cbfced427bcbadae7cbc649a62bb62b69) - **fix:** update import path for `Collection` type definition _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
+## 0.0.1 (2023-07-31)
+
 <section class="features">
 
 ### Features
@@ -53,16 +141,6 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.features -->
-
-<section class="bug-fixes">
-
-### Bug Fixes
-
--   [`14bacb3`](https://github.com/stdlib-js/stdlib/commit/14bacb3cbfced427bcbadae7cbc649a62bb62b69) - update import path for `Collection` type definition
-
-</section>
-
-<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -94,8 +172,6 @@ This release closes the following issue:
 
 <details>
 
--   [`2487c08`](https://github.com/stdlib-js/stdlib/commit/2487c08966f48e64e723bd6310e8927c0de31cfc) - **refactor:** use stdlib package to resolve accessor _(by Athan Reines)_
--   [`14bacb3`](https://github.com/stdlib-js/stdlib/commit/14bacb3cbfced427bcbadae7cbc649a62bb62b69) - **fix:** update import path for `Collection` type definition _(by Athan Reines)_
 -   [`a702b6f`](https://github.com/stdlib-js/stdlib/commit/a702b6fd7e1381f72b1080d5718a49b622be37c8) - **feat:** improve type safety when element type is unknown _(by Athan Reines)_
 -   [`9ed9aca`](https://github.com/stdlib-js/stdlib/commit/9ed9acaeacce1120731efd5c25e4d94e3629826f) - **feat:** increase minimum TypeScript version _(by Athan Reines)_
 -   [`95da1bd`](https://github.com/stdlib-js/stdlib/commit/95da1bdb97c71c1c6416aeb79cdfffd7d1598b84) - **style:** add missing spaces and update keywords _(by Athan Reines)_
