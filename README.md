@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-last/tags). For example,
+
+```javascript
 import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@v0.2.2-esm/index.mjs';
 ```
 
@@ -95,7 +100,7 @@ var out = last( x );
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@esm/index.mjs';
 import realf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-real@esm/index.mjs';
 import imagf from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
-import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@v0.2.2-esm/index.mjs';
+import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@esm/index.mjs';
 
 // Create a complex number array:
 var arr = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
