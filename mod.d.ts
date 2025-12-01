@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,43 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
 
-var resolveGetter = require( '@stdlib/array-base-resolve-getter' );
-
-
-// MAIN //
+import { Collection } from '@stdlib/types/array';
 
 /**
 * Returns the last element of an array-like object.
 *
-* @param {Collection} arr - input array
-* @returns {*} - last element
+* @param arr - input array
+* @returns last element
 *
 * @example
-* var out = last( [ 1, 2, 3 ] );
+* var arr = [ 1, 2, 3 ];
+*
+* var out = last( arr );
 * // returns 3
 */
-function last( arr ) {
-	var get;
-	var idx;
-
-	// Resolve an accessor for retrieving input array elements:
-	get = resolveGetter( arr );
-
-	// Resolve the last index:
-	idx = arr.length - 1;
-
-	// Return the last element:
-	if ( idx < 0 ) {
-		return;
-	}
-	return get( arr, idx );
-}
+declare function last<T = unknown>( arr: Collection<T> ): T;
 
 
 // EXPORTS //
 
-module.exports = last;
+export = last;
