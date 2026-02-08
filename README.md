@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@deno/mod.js';
+import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@v0.2.3-deno/mod.js';
 ```
 
 #### last( x )
@@ -88,7 +88,7 @@ var out = last( x );
 
 ```javascript
 import Complex64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-complex64@deno/mod.js';
-import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@deno/mod.js';
+import last from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-last@v0.2.3-deno/mod.js';
 
 // Create a complex number array:
 var arr = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
