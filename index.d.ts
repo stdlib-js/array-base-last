@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2023 The Stdlib Authors.
@@ -16,17 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var Complex64Array = require( '@stdlib/array-complex64' );
-var last = require( './../lib' );
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-// Create a complex number array:
-var arr = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+import { Collection } from '@stdlib/types/array';
 
-// Return the last element:
-var out = last( arr );
-// returns <Complex64>[ 5.0, 6.0 ]
+/**
+* Returns the last element of an array-like object.
+*
+* @param arr - input array
+* @returns last element
+*
+* @example
+* var arr = [ 1, 2, 3 ];
+*
+* var out = last( arr );
+* // returns 3
+*/
+declare function last<T = unknown>( arr: Collection<T> ): T;
 
-console.log( out.toString() );
-// => '5 + 6i'
+
+// EXPORTS //
+
+export = last;
